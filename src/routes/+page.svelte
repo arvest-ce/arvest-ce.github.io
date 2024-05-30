@@ -22,7 +22,7 @@
             
             <MenuButton 
                 label = "DISCUSS"
-                link = ""
+                link = "{base}/anotherpage"
             />
         </div>
     </div>
@@ -55,5 +55,33 @@
 
     p{
         font-size: 3em;
+    }
+
+    @media (min-width: 1200px) {
+        .container{
+            width: auto;
+        }
+
+        h1{
+            font-size: 7em;
+        }
+
+        p{
+            font-size: 3em;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .container{
+            width: 100%;
+        }
+
+        h1{
+            font-size: 3em;
+        }
+
+        p{
+            font-size: 1.5em;
+        }
     }
 </style>

@@ -4,10 +4,10 @@
 
 <div class="container">
     <div class="inner_container">
-        <h2>About</h2>
-        <p>Arvest is an open source, free to use tool for the analysis and navigation of collections of digital documents. Consult, compare, organize and annotate documents, images, videos and audio.</p>
-        <p>Arvest is based on the <a href="https://iiif.io/">IIIF standard</a>, and based a modified version of the IIIF viewer <a href="https://projectmirador.org/">Mirador</a>.</p>
-        <p>Arvest is currently under development in the context of the ERC-funded <a href="https://stage-to-data.huma-num.fr/">STAGE</a> Project. You can take a look at the current demo sandbox <a href="https://scene.tetras-libre.fr/">here</a>. The first beta is set to release at the end of 2024. It is developped at <a href="https://www.univ-rennes2.fr/ ">Rennes 2 University</a>, France. Developpment is currently funded by <a href="https://www.ouest-valorisation.fr/">SATT Ouest Valorisation</a>.</p>
+        <h2>Links</h2>
+        <p>GitHub: <a href="https://github.com/SCENE-CE">www.github.com/SCENE-CE</a></p>
+        <p>STAGE: <a href="https://stage-to-data.huma-num.fr/">www.stage-to-data.huma-num.fr/</a></p>
+        
     </div>
 </div>
 
