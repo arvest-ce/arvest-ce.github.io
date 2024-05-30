@@ -1,0 +1,24 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.server.js",
+		"src/routes/+layout.js",
+		"src/routes/+layout.server.js"
+	],
+	"/about": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.server.js"
+	],
+	"/anotherpage": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.server.js"
+	],
+	"/links": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.server.js"
+	],
+	"/terms": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.server.js"
+	]
+}
