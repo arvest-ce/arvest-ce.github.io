@@ -28,9 +28,11 @@
         link = "https://www.univ-rennes2.fr/"
     />
 
-    <div class="right_content">
+    <a href="{base}/terms">Terms</a>
+
+    <!-- <div class="right_content">
         <a href="{base}/terms">Terms</a>
-    </div>
+    </div> -->
 
 </footer>
 
@@ -73,5 +75,11 @@
         transition-duration: 200ms;
         background-color: black;
         /* background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgb(0, 0, 0, 1) 99%); */
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center; /* Horizontally centers the child */
+  align-items: center;  
     }
 </style>

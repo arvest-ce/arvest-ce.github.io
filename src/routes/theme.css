@@ -1,16 +1,16 @@
 @font-face {
 	font-family: 'Input-Mono-Narrow';
-	src: url('fonts/Input Mono Narrow/InputMonoNarrow-Regular.ttf')
+	src: url('/fonts/Input Mono Narrow/InputMonoNarrow-Regular.ttf')
 }
 
 @font-face {
 	font-family: 'Input-Mono-Narrow-Thin';
-	src: url('fonts/Input Mono Narrow/InputMonoNarrow-Thin.ttf')
+	src: url('/fonts/Input Mono Narrow/InputMonoNarrow-Thin.ttf')
 }
 
 @font-face {
 	font-family: 'Steinbeck';
-	src: url('fonts/steinbeck/SteinbeckItalic.woff')
+	src: url('/fonts/steinbeck/SteinbeckItalic.woff')
 }
 
 body{

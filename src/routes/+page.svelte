@@ -22,7 +22,7 @@
             
             <MenuButton 
                 label = "DISCUSS"
-                link = "{base}/anotherpage"
+                link = "{base}/discuss"
             />
         </div>
     </div>

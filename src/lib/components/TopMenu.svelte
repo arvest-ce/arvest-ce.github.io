@@ -6,26 +6,26 @@
 
 <nav>
     <TopMenuButton 
-        label = "HOME"
+        label = "Home"
         link = "{base}/"
     />
 
     <TopMenuButton 
-        label = "ABOUT"
+        label = "About"
         link = "{base}/about"
     />
     <TopMenuButton 
-        label = "SANDBOX"
+        label = "Sandbox"
         link = "https://scene.tetras-libre.fr/"
     />
     
     <TopMenuButton 
-        label = "DISCUSS"
-        link = "{base}/anotherpage"
+        label = "Discuss"
+        link = "{base}/discuss"
     />
     
     <TopMenuButton 
-        label = "LINKS"
+        label = "Links"
         link = "{base}/links"
     />
 </nav>
@@ -63,15 +63,21 @@
         display: flex;
         align-items: center;
         width: 100%;
+        
         position: absolute;
         z-index: 9;
         top: 0px;
         padding: 0.5em;
         flex-wrap: wrap;
 
+        justify-content: center; /* Horizontally centers the child */
+  align-items: center;  
+
+        /* border-bottom: solid 1px black; */
+
 
         transition-duration: 200ms;
-        background-color: black;
+        /* background-color: black; */
         /* background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgb(0, 0, 0, 1) 99%); */
     }
 </style>

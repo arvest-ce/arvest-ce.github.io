@@ -14,7 +14,9 @@
 			in:fade={{x: 0, duration:100, delay:100}}
 			out:fade={{x: 0, duration:100}}
 		>
+		{#if data.url != "/"}
 		<TopMenu />
+		{/if}
 			<slot />
 
 			<Footer />

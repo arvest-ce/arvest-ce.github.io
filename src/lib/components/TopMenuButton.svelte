@@ -10,7 +10,7 @@
 <style>
     a{
         font-size: 1em;
-        color: white;
+        color: black;
     }
 
     a:hover{
