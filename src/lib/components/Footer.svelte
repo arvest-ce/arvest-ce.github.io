@@ -5,25 +5,25 @@
 
 <footer>
     <LogoImage 
-        src = "logos/cc.png"
+        src = "logos/cc-black.png"
         alt = "creative commons logo"
         link = "https://creativecommons.org/"
     />
 
     <LogoImage 
-        src = "logos/erc.png"
+        src = "logos/erc-black.png"
         alt = "european research council logo"
         link = "https://www.horizon-europe.gouv.fr/erc"
     />
 
     <LogoImage 
-        src = "logos/europe.png"
+        src = "logos/europe-black.png"
         alt = "european union logo"
         link = ""
     />
 
     <LogoImage 
-        src = "logos/R2.png"
+        src = "logos/R2-black.png"
         alt = "rennes 2 logo"
         link = "https://www.univ-rennes2.fr/"
     />
@@ -54,7 +54,7 @@
 
     a{
         text-decoration: underline;
-        color: white;
+        color: black;
         
     }
     a:hover{
@@ -73,7 +73,7 @@
         /* opacity: 0.5; */
 
         transition-duration: 200ms;
-        background-color: black;
+        background-color: white;
         /* background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, rgb(0, 0, 0, 1) 99%); */
 
         display: flex;

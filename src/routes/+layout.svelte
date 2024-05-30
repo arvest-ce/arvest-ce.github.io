@@ -17,8 +17,8 @@
 			in:fade={{x: 0, duration:100, delay:100}}
 			out:fade={{x: 0, duration:100}}
 		>
-		{#if data.url != base + "/"}
-		<TopMenu />
+		{#if data.url != base + "/" && data.url != "/sveltekit-github-pages/" && data.url != "/" && data.url != base}
+			<TopMenu />
 		{/if}
 			<slot />
 
