@@ -24,7 +24,10 @@
         link = "{base}/anotherpage"
     />
     
-
+    <TopMenuButton 
+        label = "LINKS"
+        link = "{base}/links"
+    />
 </nav>
 
 <style>
