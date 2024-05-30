@@ -2,7 +2,10 @@
 	import './reset.css';
 	import './theme.css';
 	import {fade} from 'svelte/transition';
+	import { base } from '$app/paths';
 	export let data;
+
+	console.log(data.url)
 
 	import Footer from '$lib/components/Footer.svelte';
 	import TopMenu from '$lib/components/TopMenu.svelte';
@@ -14,7 +17,7 @@
 			in:fade={{x: 0, duration:100, delay:100}}
 			out:fade={{x: 0, duration:100}}
 		>
-		{#if data.url != "/"}
+		{#if data.url != base + "/"}
 		<TopMenu />
 		{/if}
 			<slot />
